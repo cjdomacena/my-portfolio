@@ -7,9 +7,9 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App max-h-screen">
+      <div className="App">
         <Navbar />
-        <main className="container mx-auto text-white relative  my-4 p-8 h-full ">
+        <main className="container mx-auto text-white  my-4 p-8 h-full ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
