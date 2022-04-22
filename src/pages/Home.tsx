@@ -1,14 +1,15 @@
 import React from 'react'
 import Button from '../components/Button';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import lineDoodle from '../assets/line.png'
 
 type Props = {}
 
 const Home = (props: Props) => {
   return (
-    <main className=" container my-24 mx-auto text-white">
+    <main className="container mt-24 mx-auto text-white relative overflow-hidden">
       <section className="max-w-2xl mx-auto p-4">
-        <h1 className="text-6xl font-heading leading-relaxed tracking-tight font-bold">
+        <h1 className="text-6xl font-heading leading-relaxed tracking-tight font-black">
           {' '}
           Passion, dedication and a lot of coffee
         </h1>
@@ -35,6 +36,7 @@ const Home = (props: Props) => {
           </a>
         </div>
       </section>
+      <img src={lineDoodle} alt="doodle line" className='mt-12 object-cover' />
     </main>
   );
 }
