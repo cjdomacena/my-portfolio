@@ -9,7 +9,6 @@ const Projects:React.FC = () => {
   const fetchRecords = async () => {
     const req = await fetch('/.netlify/functions/get-portfolio');
     const res = await req.json();
-
     console.log(res)
     if(res) {
       setRecords(res);
@@ -36,7 +35,7 @@ const Projects:React.FC = () => {
         </select> */}
       </div>
 
-      <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(375px,1fr))] gap-16 my-8">
+      <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(325px,1fr))] gap-24 my-8">
         {records && records.map((record, index) => <Card title={record.title} description={record.description} tags={record.tags} siteLink={record.siteLink} githubLink={record.githubLink} image={record.image} key={index} />)}
       </div>
     </section>
