@@ -7,10 +7,10 @@ const NavLinks:React.FC = () => {
     <div className="xl:contents lg:contents hidden">
       <ul className="space-x-4 items-center flex">
         <NavItem path="/" item="home" />
-        <NavItem path="/experience" item="experience" />
         <NavItem path="/projects" item="projects" />
+        <NavItem path="/experience" item="experience" />
       </ul>
-      <div className='space-x-4'>
+      <div className="space-x-4">
         <Button text="say hello!" />{' '}
         <NavItem path="/something" item={<Button text="download cv" type="outline" />} />
       </div>
