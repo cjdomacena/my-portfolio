@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'jit',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
@@ -9,6 +8,7 @@ module.exports = {
       },
       colors: {
         primary: '#0B0B0B',
+        secondary: '#6147FF',
       },
     },
   },
