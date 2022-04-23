@@ -16,7 +16,7 @@ const Button = ({type = "default", text, file}:Props) => {
             ? 'border hover:border-secondary hover:text-secondary transition-colors'
             : 'bg-secondary text-white hover:bg-secondary/70 transition-colors'
         }`}
-        download="Christian-Domacena-CV-2022.pdf">
+        download>
         {text}
       </a>
     );
