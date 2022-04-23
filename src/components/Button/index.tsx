@@ -10,7 +10,7 @@ const Button = ({type = "default", text, file}:Props) => {
   if(type === 'outline') {
     return (
       <a
-        href="https://github.com/cjdomacena/my-portfolio/blob/master/src/assets/Christian-Domacena-resume-2022.pdf"
+        href="https://github.com/cjdomacena/my-portfolio/raw/master/src/assets/Christian-Domacena-resume-2022.pdf"
         className={`font-black text-sm rounded leading-none py-3 px-4  ${
           type === 'outline'
             ? 'border hover:border-secondary hover:text-secondary transition-colors'

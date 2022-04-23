@@ -12,7 +12,7 @@ const NavLinks:React.FC = () => {
       </ul>
       <div className="space-x-4">
         <Button text="say hello!" />{' '}
-        <NavItem path="/something" item={<Button text="download cv" type="outline" />} />
+        <Button text="download cv" type="outline" />
       </div>
     </div>
   );
