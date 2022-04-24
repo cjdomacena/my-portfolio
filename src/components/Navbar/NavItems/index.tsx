@@ -1,8 +1,10 @@
-import React from 'react'
 import Button from '../../Button';
 import NavItem from './NavItem';
 
-const NavLinks:React.FC = () => {
+
+
+
+const NavLinks = () => {
   return (
     <div className="xl:contents lg:contents hidden">
       <ul className="space-x-4 items-center flex">

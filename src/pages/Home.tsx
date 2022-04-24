@@ -7,7 +7,7 @@ type Props = {};
 
 const Home: React.FC = (props: Props) => {
   return (
-    <section className="max-w-2xl mx-auto my-12 h-full">
+    <section className="max-w-2xl mx-auto h-full">
       <h1 className="text-6xl font-heading leading-relaxed tracking-tight font-black">
         {' '}
         Passion, dedication and a lot of coffee
@@ -52,7 +52,7 @@ const Home: React.FC = (props: Props) => {
           </li>
         </ul>
       </div>
-      <div className="flex gap-4 mt-12">
+      <div className="gap-4 mt-12 items-center space-x-4">
         <Button type="default" text="say hello!" />
         <Button type="outline" text="download cv" file='./../assets/Christian-Domacena-resume-2022.pdf' />
       </div>

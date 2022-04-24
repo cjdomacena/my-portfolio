@@ -9,7 +9,6 @@ const Projects:React.FC = () => {
   const fetchRecords = async () => {
     const req = await fetch('/.netlify/functions/get-portfolio');
     const res = await req.json();
-    console.log(res)
     if(res) {
       setRecords(res);
     } else {
