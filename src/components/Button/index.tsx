@@ -21,6 +21,17 @@ const Button = ({type = "default", text, file}:Props) => {
       </a>
     );
   }
+  if(type === 'email') {
+     return (
+       <a
+         href="mailto:cjdomacena@yahoo.com"
+         className={`font-black text-sm rounded leading-none py-3 px-4 bg-secondary text-white hover:bg-secondary/70 transition-colors
+         `}
+         download>
+         {text}
+       </a>
+     );
+  }
 
   return (
     <button

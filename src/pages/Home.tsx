@@ -53,8 +53,12 @@ const Home: React.FC = (props: Props) => {
         </ul>
       </div>
       <div className="gap-4 mt-12 items-center space-x-4">
-        <Button type="default" text="say hello!" />
-        <Button type="outline" text="download cv" file='./../assets/Christian-Domacena-resume-2022.pdf' />
+        <Button text="say hello!" type="email" />
+        <Button
+          type="outline"
+          text="download cv"
+          file="./../assets/Christian-Domacena-resume-2022.pdf"
+        />
       </div>
 
       <div className="flex gap-4 mt-12 text-white">

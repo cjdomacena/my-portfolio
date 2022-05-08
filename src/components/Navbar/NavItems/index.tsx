@@ -13,7 +13,7 @@ const NavLinks = () => {
         <NavItem path="/experience" item="experience" />
       </ul>
       <div className="space-x-4">
-        <Button text="say hello!" />{' '}
+        <Button text="say hello!" type="email" /> 
         <Button text="download cv" type="outline" />
       </div>
     </div>
