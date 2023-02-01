@@ -1,20 +1,35 @@
-import React from 'react';
-import Button from '../components/Button';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import {IoLogoReact, IoLogoJavascript} from 'react-icons/io5'
-import { SiTailwindcss, SiTypescript, SiFirebase, SiRedux, SiFigma, SiStyledcomponents } from 'react-icons/si';
+import React from "react";
+import Button from "../components/Button";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+} from "react-icons/ai";
+import {
+  IoLogoReact,
+  IoLogoJavascript,
+} from "react-icons/io5";
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiFirebase,
+  SiRedux,
+  SiFigma,
+  SiStyledcomponents,
+} from "react-icons/si";
 type Props = {};
 
 const Home: React.FC = (props: Props) => {
   return (
     <section className="max-w-2xl mx-auto h-full">
       <h1 className="text-6xl font-heading leading-relaxed tracking-tight font-black">
-        {' '}
+        {" "}
         Passion, dedication and a lot of coffee
       </h1>
       <p className="leading-loose text-white/90 mt-8">
-        Hello! I'm Christian Domacena, a front-end developer, currently pursuing a bachelor degree
-        in IT. I specialize in creating websites that are both simple and interactive.
+        Hello! I'm Christian Domacena, a front-end
+        developer, currently pursuing a bachelor degree in
+        IT. I specialize in creating websites that are both
+        simple and interactive.
       </p>
       <div className="mt-12">
         <h2>My toolbelt</h2>
@@ -57,7 +72,7 @@ const Home: React.FC = (props: Props) => {
         <Button
           type="outline"
           text="download cv"
-          file="./../assets/Christian-Domacena-resume-2022.pdf"
+          file="./../assets/Christian-domacena-2023-resume.pdf"
         />
       </div>
 
