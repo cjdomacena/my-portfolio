@@ -13,7 +13,7 @@ const Button = ({
   if (type === "outline") {
     return (
       <a
-        href="https://github.com/cjdomacena/my-portfolio/blob/master/src/assets/Christian-domacena-2023-resume.pdf"
+        href="https://github.com/cjdomacena/my-portfolio/raw/master/src/assets/Christian-domacena-2023-resume.pdf"
         className={`font-black text-sm rounded border leading-none py-3 px-4  ${
           type === "outline"
             ? "border hover:border-secondary hover:text-secondary transition-colors"
